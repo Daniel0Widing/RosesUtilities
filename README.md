@@ -16,12 +16,32 @@ cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/TeamBuildi
 ```
 </details>
 
-#### Armor Repair Kit
+#### Tiered Armor Repair Kits
 <details><summary>------- Info ---------</summary>
 	
-Instantly repairs an armor piece equipped or in your inventory when used, but consumes the kit on use and only works in player inventories.
+A collection of tools and materials that makes repairing armor a cinch.
+
+Use to instantly repair the first damaged or broken piece of armor in your inventory, with equipped armor having priority.
+
+Has 4 tiers with each tier able to repair more types of armor than the previous tier, along with the previous tier's types.
+| Tier | Additional Armor Types |
+| --- | --- |
+| Crude | Cloth, Hide |
+| Basic | Fur, Desert, Ghillie, Chitin |
+| Advanced | Flak, Hazard, SCUBA(minus chest), Riot |
+| Universal | All |
+
 ```
-cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/ArmorRepairKit/PrimalItemConsumable_ArmorRepairKit.PrimalItemConsumable_ArmorRepairKit'" 40 0 false
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/ArmorRepairKit/Crude/PrimalItemConsumable_ArmorRepairKitCrude.PrimalItemConsumable_ArmorRepairKitCrude'" 40 0 false
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/ArmorRepairKit/Basic/PrimalItemConsumable_ArmorRepairKitBasic.PrimalItemConsumable_ArmorRepairKitBasic'" 40 0 false
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/ArmorRepairKit/Advanced/PrimalItemConsumable_ArmorRepairKitAdvanced.PrimalItemConsumable_ArmorRepairKitAdvanced'" 40 0 false
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/ArmorRepairKit/Universal/PrimalItemConsumable_ArmorRepairKitUniversal.PrimalItemConsumable_ArmorRepairKitUniversal'" 40 0 false
 ```
 </details>
 
