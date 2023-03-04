@@ -8,9 +8,10 @@ Log into Steam, go to [Rose's Utilities](https://steamcommunity.com/sharedfiles/
 ### Consumables:
 #### Team Building Book
 <details><summary>------- Info ---------</summary>
+
 When used while riding a dinosaur, adds 25-50% imprint quality and sets the imprinter to the rider.
 
-Cannot be used on fully imprinted dinosaurs.
+Cannot be used on dinosaurs fully imprinted to you.
 ```
 cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/TeamBuildingBook/PrimalItemConsumable_TeamBuildingBook.PrimalItemConsumable_TeamBuildingBook'" 40 0 false
 ```
@@ -53,5 +54,67 @@ Are your dinos feeling lonely because they don't have a mate? Worry not, for we 
 Works on all dinosaur genders (or lack thereof), because everyone deserves love!
 ```
 cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/V-Mate/PrimalItemConsumable_V-Mate.PrimalItemConsumable_V-Mate'" 1 0 false
+```
+</details>
+
+#### Resource Pallets
+<details><summary>------- Info ---------</summary>
+	
+Compact packages of resources which are lighter and more space efficient than their unpackaged contents. 
+
+Crafted in the [Packager](https://github.com/Daniel0Widing/RosesUtilities#packager), and unpacked by using in an inventory. 
+
+Types: 
+- Metal Ingot
+- Scrap Metal Ingot
+- Crystal
+- Wood
+- Fungal Wood 
+- Corrupted Wood
+- Stone
+- Obsidian
+- Element Shards
+
+*May not be compatibile with stack mods. If you only want to change the stack size of items, use the Game.ini settings instead of a stack mod. If you also want the weight reduction from a stack mod, then the Packager and Resource Pallets are redundant and shouldn't be used.*
+```
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/Pallets/PrimalItemConsumablePallet_MetalIngot.PrimalItemConsumablePallet_MetalIngot'" 1 0 false
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/Pallets/PrimalItemConsumablePallet_ScrapMetalIngot.PrimalItemConsumablePallet_ScrapMetalIngot'" 1 0 false
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/Pallets/PrimalItemConsumablePallet_Crystal.PrimalItemConsumablePallet_Crystal'" 1 0 false
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/Pallets/PrimalItemConsumablePallet_Wood.PrimalItemConsumablePallet_Wood'" 1 0 false
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/Pallets/PrimalItemConsumablePallet_FungalWood.PrimalItemConsumablePallet_FungalWood'" 1 0 false
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/Pallets/PrimalItemConsumablePallet_CorruptedWood.PrimalItemConsumablePallet_CorruptedWood'" 1 0 false
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/Pallets/PrimalItemConsumablePallet_Stone.PrimalItemConsumablePallet_Stone'" 1 0 false
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/Pallets/PrimalItemConsumablePallet_Obsidian.PrimalItemConsumablePallet_Obsidian'" 1 0 false
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/Pallets/PrimalItemConsumablePallet_ElementShard.PrimalItemConsumablePallet_ElementShard'" 1 0 false
+```
+</details>
+
+### Structures:
+#### Packager
+<details><summary>------- Info ---------</summary>
+
+An advanced machine that creates pallets from raw and refined resources. 
+
+Requires electricity from a Generator or Tek Generator. 
+
+Designed to facilitate the use of intermediate and mobile bases.
+```
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Structures/Packager/PrimalItemStructure_Packager.PrimalItemStructure_Packager'" 1 0 false
 ```
 </details>
