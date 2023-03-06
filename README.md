@@ -74,34 +74,42 @@ Types:
 - Stone
 - Obsidian
 - Element Shards
+- Flint
+- Charcoal
 
 *May not be compatibile with stack mods. If you only want to change the stack size of items, use the Game.ini settings instead of a stack mod. If you also want the weight reduction from a stack mod, then the Packager and Resource Pallets are redundant and shouldn't be used.*
 ```
-cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/Pallets/PrimalItemConsumablePallet_MetalIngot.PrimalItemConsumablePallet_MetalIngot'" 1 0 false
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_MetalIngot.PrimalItemResourcePallet_MetalIngot'" 1 0 false
 ```
 ```
-cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/Pallets/PrimalItemConsumablePallet_ScrapMetalIngot.PrimalItemConsumablePallet_ScrapMetalIngot'" 1 0 false
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_ScrapMetalIngot.PrimalItemResourcePallet_ScrapMetalIngot'" 1 0 false
 ```
 ```
-cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/Pallets/PrimalItemConsumablePallet_Crystal.PrimalItemConsumablePallet_Crystal'" 1 0 false
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_Crystal.PrimalItemResourcePallet_Crystal'" 1 0 false
 ```
 ```
-cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/Pallets/PrimalItemConsumablePallet_Wood.PrimalItemConsumablePallet_Wood'" 1 0 false
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_Wood.PrimalItemResourcePallet_Wood'" 1 0 false
 ```
 ```
-cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/Pallets/PrimalItemConsumablePallet_FungalWood.PrimalItemConsumablePallet_FungalWood'" 1 0 false
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_FungalWood.PrimalItemResourcePallet_FungalWood'" 1 0 false
 ```
 ```
-cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/Pallets/PrimalItemConsumablePallet_CorruptedWood.PrimalItemConsumablePallet_CorruptedWood'" 1 0 false
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_CorruptedWood.PrimalItemResourcePallet_CorruptedWood'" 1 0 false
 ```
 ```
-cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/Pallets/PrimalItemConsumablePallet_Stone.PrimalItemConsumablePallet_Stone'" 1 0 false
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_Stone.PrimalItemResourcePallet_Stone'" 1 0 false
 ```
 ```
-cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/Pallets/PrimalItemConsumablePallet_Obsidian.PrimalItemConsumablePallet_Obsidian'" 1 0 false
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_Obsidian.PrimalItemResourcePallet_Obsidian'" 1 0 false
 ```
 ```
-cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/Pallets/PrimalItemConsumablePallet_ElementShard.PrimalItemConsumablePallet_ElementShard'" 1 0 false
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_ElementShard.PrimalItemResourcePallet_ElementShard'" 1 0 false
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_Flint.PrimalItemResourcePallet_Flint'" 1 0 false
+```
+```
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_Charcoal.PrimalItemResourcePallet_Charcoal'" 1 0 false
 ```
 </details>
 
