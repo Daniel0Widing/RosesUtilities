@@ -5,22 +5,24 @@ Adds a collection of useful utilities that enhance both vanilla and modded ARK e
 Log into Steam, go to [Rose's Utilities](https://steamcommunity.com/sharedfiles/filedetails/?id=2939004410), and subscribe to the mod. Then launch ARK and the mod should automatically download.
 
 ## GameUserSettings.ini Configuration
-Add the following section to the bottom of your GameUserSettings.ini file and change the settings you want changed. The names should all be self-explanatory.
+First close your game/server. Then in the GameUserSettings.ini file, find the [RosesUtilities] section and change the settings you want changed and save the file. When you restart your game/server, the new settings should be applied.
+
+The following section should add itself to the bottom of your GameUserSettings.ini file, but if it doesn't, copy it into the bottom of the file.
 
 ```
-[RoseUtilities]
+[RosesUtilities]
 BasePalletStackSize=8
-PalletBaseWeightMetalIngotPallet=100
-PalletBaseWeightScrapMetalIngotPallet=100
-PalletBaseWeightCrystalPallet=50
-PalletBaseWeightWoodPallet=25
-PalletBaseWeightFungalWoodPallet=25
-PalletBaseWeightCorruptedWoodPallet=25
-PalletBaseWeightStonePallet=25
-PalletBaseWeightObsidianPallet=50
-PalletBaseWeightElementShardPallet=25
-PalletBaseWeightCharcoalPallet=12.5
-PalletBaseWeightFlintPallet=2.5
+PalletBaseWeight_MetalIngotPallet=100.000000
+PalletBaseWeight_ScrapMetalIngotPallet=100.000000
+PalletBaseWeight_CrystalPallet=50.000000
+PalletBaseWeight_WoodPallet=25.000000
+PalletBaseWeight_FungalWoodPallet=25.000000
+PalletBaseWeight_CorruptedWoodPallet=25.000000
+PalletBaseWeight_StonePallet=25.000000
+PalletBaseWeight_ObsidianPallet=50.000000
+PalletBaseWeight_ElementShardPallet=25.000000
+PalletBaseWeight_CharcoalPallet=12.500000
+PalletBaseWeight_FlintPallet=2.500000
 ```
 
 ## S+ Pull Resource Config
