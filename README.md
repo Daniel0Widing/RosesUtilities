@@ -4,6 +4,25 @@ Adds a collection of useful utilities that enhance both vanilla and modded ARK e
 ## Installing the Mod
 Log into Steam, go to [Rose's Utilities](https://steamcommunity.com/sharedfiles/filedetails/?id=2939004410), and subscribe to the mod. Then launch ARK and the mod should automatically download.
 
+## GameUserSettings.ini Configuration
+Add the following section to the bottom of your GameUserSettings.ini file and change the settings you want changed. The names should all be self-explanatory.
+
+```
+[RoseUtilities]
+BasePalletStackSize=8
+PalletBaseWeightMetalIngotPallet=100
+PalletBaseWeightScrapMetalIngotPallet=100
+PalletBaseWeightCrystalPallet=50
+PalletBaseWeightWoodPallet=25
+PalletBaseWeightFungalWoodPallet=25
+PalletBaseWeightCorruptedWoodPallet=25
+PalletBaseWeightStonePallet=25
+PalletBaseWeightObsidianPallet=50
+PalletBaseWeightElementShardPallet=25
+PalletBaseWeightCharcoalPallet=12.5
+PalletBaseWeightFlintPallet=2.5
+```
+
 ## S+ Pull Resource Config
 Add the following to the end of the **PullResourceAdditions=** line in your **GameUserSettings.ini** file under the **\[StructuresPlus\]** section to enable S+ resource pulling for Rose's Utilities items. If the config line already has items in it from other mods, seperate those items from the Rose's Utilities items with a comma.
 
