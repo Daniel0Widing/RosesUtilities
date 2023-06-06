@@ -177,7 +177,7 @@ cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Structures/Packager/PrimalIt
 #### Honey Barrel
 <details><summary>------- Info ---------</summary>
 
-Did you know that honey never expires if stored properly? Of course not, because you've just been leaving it around in dusty storage boxes and moldy fridges! Put your honey in a well constructed Honey Barrel and it will never expire!
+Did you know that honey never expires if stored properly? Of course not, because you've just been leaving it around in dusty storage boxes and moldy fridges! Put your honey in the specially constructed Honey Barrel and it'll never expire!
 	
 *This statement has not been approved by the FDA and does not imply food safety.*
 ```
