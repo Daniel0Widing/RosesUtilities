@@ -166,9 +166,9 @@ cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Resources/Pallets/Prim
 
 An advanced machine that creates pallets from raw and refined resources. 
 
-Requires electricity from a Generator or Tek Generator. 
+Requires electricity from a Generator or Tek Generator and cannot be picked up after being activated. 
 
-Designed to facilitate the use of intermediate and mobile bases.
+Designed to encourage the use of intermediate and mobile bases.
 ```
 cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Structures/Packager/PrimalItemStructure_Packager.PrimalItemStructure_Packager'" 1 0 false
 ```
