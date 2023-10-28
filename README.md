@@ -1,3 +1,5 @@
+NOT UPDATED TO LATEST VERSION, WIP
+
 # Rose's Utilities
 Adds a collection of useful utilities that enhance both vanilla and modded ARK experiences.
 
@@ -5,31 +7,25 @@ Adds a collection of useful utilities that enhance both vanilla and modded ARK e
 Log into Steam, go to [Rose's Utilities](https://steamcommunity.com/sharedfiles/filedetails/?id=2939004410), and subscribe to the mod. Then launch ARK and the mod should automatically download.
 
 ## GameUserSettings.ini Configuration
-First close your game/server. Then in the GameUserSettings.ini file, find the [RosesUtilities] section and change the settings you want changed and save the file. When you restart your game/server, the new settings should be applied.
+First close your game/server. Then in the GameUserSettings.ini file, find/add the [RosesUtilities] section below and change the settings you want changed and save the file. When you restart your game/server, the new settings should be applied.
 
-The following section should add itself to the bottom of your GameUserSettings.ini file, but if it doesn't, copy it into the bottom of the file.
+The settings are as follows:
+- InfiniteFoodBuffBlacklist: Comma seperated list of creatures that cannot have the infinite food items used on them
+- ShockAbsorbersDamageCap: Max amount of fall damage taken when Shock Absorbers are applied
+- ShockAbsorbersDamagePercent: Max percent of fall damage taken when Shock Absorbers are applied
 
 ```
 [RosesUtilities]
-BasePalletStackSize=8
-PalletBaseWeight_MetalIngotPallet=100.000000
-PalletBaseWeight_ScrapMetalIngotPallet=100.000000
-PalletBaseWeight_CrystalPallet=50.000000
-PalletBaseWeight_WoodPallet=25.000000
-PalletBaseWeight_FungalWoodPallet=25.000000
-PalletBaseWeight_CorruptedWoodPallet=25.000000
-PalletBaseWeight_StonePallet=25.000000
-PalletBaseWeight_ObsidianPallet=50.000000
-PalletBaseWeight_ElementShardPallet=25.000000
-PalletBaseWeight_CharcoalPallet=12.500000
-PalletBaseWeight_FlintPallet=2.500000
+InfiniteFoodBuffBlacklist=Daeodon_Character_BP_C,Daeodon_Character_BP_Eden_C
+ShockAbsorbersDamageCap=1000
+ShockAbsorbersDamagePercent=1
 ```
 
 ## S+ Pull Resource Config
 Add the following to the end of the **PullResourceAdditions=** line in your **GameUserSettings.ini** file under the **\[StructuresPlus\]** section to enable S+ resource pulling for Rose's Utilities items. If the config line already has items in it from other mods, seperate those items from the Rose's Utilities items with a comma.
 
 ```
-/Game/Mods/RosesUtilities/Items/Consumables/TeamBuildingBook/PrimalItemConsumable_TeamBuildingBook.PrimalItemConsumable_TeamBuildingBook,/Game/Mods/RosesUtilities/Items/Consumables/ArmorRepairKit/Crude/PrimalItemConsumable_ArmorRepairKitCrude.PrimalItemConsumable_ArmorRepairKitCrude,/Game/Mods/RosesUtilities/Items/Consumables/ArmorRepairKit/Basic/PrimalItemConsumable_ArmorRepairKitBasic.PrimalItemConsumable_ArmorRepairKitBasic,/Game/Mods/RosesUtilities/Items/Consumables/ArmorRepairKit/Advanced/PrimalItemConsumable_ArmorRepairKitAdvanced.PrimalItemConsumable_ArmorRepairKitAdvanced,/Game/Mods/RosesUtilities/Items/Consumables/ArmorRepairKit/Universal/PrimalItemConsumable_ArmorRepairKitUniversal.PrimalItemConsumable_ArmorRepairKitUniversal,/Game/Mods/RosesUtilities/Items/Consumables/V-Mate/PrimalItemConsumable_V-Mate.PrimalItemConsumable_V-Mate,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_MetalIngot.PrimalItemResourcePallet_MetalIngot,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_ScrapMetalIngot.PrimalItemResourcePallet_ScrapMetalIngot,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_Crystal.PrimalItemResourcePallet_Crystal,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_Wood.PrimalItemResourcePallet_Wood,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_FungalWood.PrimalItemResourcePallet_FungalWood,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_CorruptedWood.PrimalItemResourcePallet_CorruptedWood,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_Stone.PrimalItemResourcePallet_Stone,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_Obsidian.PrimalItemResourcePallet_Obsidian,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_ElementShard.PrimalItemResourcePallet_ElementShard,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_Flint.PrimalItemResourcePallet_Flint,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_Charcoal.PrimalItemResourcePallet_Charcoal,/Game/Mods/RosesUtilities/Items/Consumables/PrimalToolSet/PrimalItemConsumable_PrimalToolSet.PrimalItemConsumable_PrimalToolSet
+/Game/Mods/RosesUtilities/Items/Consumables/TeamBuildingBook/PrimalItemConsumable_TeamBuildingBook.PrimalItemConsumable_TeamBuildingBook,/Game/Mods/RosesUtilities/Items/Consumables/Self-ImprovementBook/PrimalItemConsumable_Self-ImprovementBook.PrimalItemConsumable_Self-ImprovementBook,/Game/Mods/RosesUtilities/Items/Consumables/SurvivalKit/PrimalItemConsumable_SurvivalKit.PrimalItemConsumable_SurvivalKit,/Game/Mods/RosesUtilities/Items/Consumables/ArmorRepairKit/Crude/PrimalItemConsumable_ArmorRepairKitCrude.PrimalItemConsumable_ArmorRepairKitCrude,/Game/Mods/RosesUtilities/Items/Consumables/ArmorRepairKit/Basic/PrimalItemConsumable_ArmorRepairKitBasic.PrimalItemConsumable_ArmorRepairKitBasic,/Game/Mods/RosesUtilities/Items/Consumables/ArmorRepairKit/Advanced/PrimalItemConsumable_ArmorRepairKitAdvanced.PrimalItemConsumable_ArmorRepairKitAdvanced,/Game/Mods/RosesUtilities/Items/Consumables/ArmorRepairKit/Universal/PrimalItemConsumable_ArmorRepairKitUniversal.PrimalItemConsumable_ArmorRepairKitUniversal,/Game/Mods/RosesUtilities/Items/Consumables/V-Mate/PrimalItemConsumable_V-Mate.PrimalItemConsumable_V-Mate,/Game/Mods/RosesUtilities/Items/Consumables/ShockAbsorbers/PrimalItemConsumable_ShockAbsorbers.PrimalItemConsumable_ShockAbsorbers,/Game/Mods/RosesUtilities/Items/Consumables/FruitOfGrisaia/PrimalItemConsumable_FruitOfGrisaia.PrimalItemConsumable_FruitOfGrisaia,/Game/Mods/RosesUtilities/Items/Consumables/FleshOfOuroboros/PrimalItemConsumable_FleshOfOuroboros.PrimalItemConsumable_FleshOfOuroboros,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_MetalIngot.PrimalItemResourcePallet_MetalIngot,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_ScrapMetalIngot.PrimalItemResourcePallet_ScrapMetalIngot,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_Crystal.PrimalItemResourcePallet_Crystal,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_Wood.PrimalItemResourcePallet_Wood,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_FungalWood.PrimalItemResourcePallet_FungalWood,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_CorruptedWood.PrimalItemResourcePallet_CorruptedWood,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_Stone.PrimalItemResourcePallet_Stone,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_Obsidian.PrimalItemResourcePallet_Obsidian,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_ElementShard.PrimalItemResourcePallet_ElementShard,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_Flint.PrimalItemResourcePallet_Flint,/Game/Mods/RosesUtilities/Items/Resources/Pallets/PrimalItemResourcePallet_Charcoal.PrimalItemResourcePallet_Charcoal
 ```
 	
 ## Added Items:
@@ -37,11 +33,20 @@ Add the following to the end of the **PullResourceAdditions=** line in your **Ga
 #### Team Building Book
 <details><summary>------- Info ---------</summary>
 
-When used while riding a dinosaur, adds 25-50% imprint quality and sets the imprinter to the rider.
+When used while riding a creature, adds 25-50% imprint quality and sets the imprinter to the rider.
 
-Cannot be used on dinosaurs fully imprinted to you.
+Cannot be used on creatures fully imprinted to you.
 ```
-cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/TeamBuildingBook/PrimalItemConsumable_TeamBuildingBook.PrimalItemConsumable_TeamBuildingBook'" 40 0 false
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/TeamBuildingBook/PrimalItemConsumable_TeamBuildingBook.PrimalItemConsumable_TeamBuildingBook'" 100 0 false
+```
+</details>
+
+#### Self-Improvement Book
+<details><summary>------- Info ---------</summary>
+
+When used in a creature's inventory, resets the tamed levels of that creature, allowing them to be respeced by the player.
+```
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/Self-ImprovementBook/PrimalItemConsumable_Self-ImprovementBook.PrimalItemConsumable_Self-ImprovementBook'" 100 0 false
 ```
 </details>
 
@@ -85,7 +90,7 @@ cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/V-Mate/Pri
 ```
 </details>
 
-#### Primal Tool Set
+#### Survival Book
 <details><summary>------- Info ---------</summary>
 	
 Every seasoned survivor knows how tedious the first few minutes on a new ARK can be what with having to craft and unlock all the basics every time. The Primal Tool Set addresses this issue by giving you all the tools you need to get going without needing to craft each individually. 
@@ -99,7 +104,7 @@ When used gives you:
 - 10 Arrows
 - 1 Campfire
 ```
-cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/PrimalToolSet/PrimalItemConsumable_PrimalToolSet.PrimalItemConsumable_PrimalToolSet'" 1 0 false
+cheat giveitem "Blueprint'/Game/Mods/RosesUtilities/Items/Consumables/SurvivalBook/PrimalItemConsumable_SurvivalBook.PrimalItemConsumable_SurvivalBook'" 1 0 false
 ```
 </details>
 
